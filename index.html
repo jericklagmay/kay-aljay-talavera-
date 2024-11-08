@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dota 2 - Official Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #202020;
+            color: #fff;
+        }
+
+        header {
+            background-color: #2e2e2e;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ff4c00;
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #ff4c00;
+        }
+
+        .hero-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .hero-card {
+            background-color: #444;
+            border-radius: 8px;
+            width: 280px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .hero-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .hero-card h3 {
+            color: #ff4c00;
+        }
+
+        .hero-card p {
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #2e2e2e;
+            text-align: center;
+            padding: 15px;
+            color: #ccc;
+        }
+
+        footer a {
+            color: #ff4c00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-form {
+            background-color: #333;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+            background-color: #555;
+            color: #fff;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #ff4c00;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #e13d00;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Dota 2 - Heroes and Legends</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#heroes">Heroes</a>
+        <a href="#match">Match</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <div class="hero-section">
+            <div class="hero-card">
+                <img src="1.jpg" alt="Dota 2">
+                <h3>Welcome to Dota 2</h3>
+                <p>The ultimate multiplayer online battle arena (MOBA) game where strategy and skill reign supreme.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="heroes">
+        <h2 style="text-align: center;">Famous Heroes</h2>
+        <div class="hero-section">
+            <div class="hero-card">
+                <img src="2.jpg" alt="Dota 2 Hero">
+                <h3>Invoker</h3>
+                <p>A master of all elements, Invoker is a powerful mage who can manipulate the forces of nature.</p>
+            </div>
+            <div class="hero-card">
+                <img src="3.jpg" alt="Dota 2 Hero">
+                <h3>Anti-Mage</h3>
+                <p>Anti-Mage specializes in attacking and disabling enemy mages, providing a unique playstyle focused on silencing and agility.</p>
+            </div>
+            <div class="hero-card">
+                <img src="4.jpg" alt="Dota 2 Hero">
+                <h3>Crystal Maiden</h3>
+                <p>A support hero known for her powerful crowd control abilities, offering utility to her team with ice-based magic.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="match">
+        <h2 style="text-align: center;">Current Match Info</h2>
+        <div style="text-align: center; padding: 20px; background-color: #444; margin: 20px 0;">
+            <h3 style="color: #ff4c00;">Dota 2 Match - Final Round</h3>
+            <p>Watch as top teams battle it out in the grand final! Who will emerge victorious?</p>
+            <button style="background-color: #ff4c00; color: #fff; border: none; padding: 10px 20px; cursor: pointer;">
+                Watch Now
+            </button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 style="text-align: center;">Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Dota 2 - All Rights Reserved</p>
+        <p><a href="https://www.dota2.com" target="_blank">Official Dota 2 Website</a></p>
+    </footer>
+
+</body>
+
+</html>
